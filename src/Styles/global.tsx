@@ -33,7 +33,7 @@ export const Label = styled.Text`
   font-weight: 400;
   color: ${(props: { color: string }) => props.color || '#000'};
   text-align: ${(props: { textAlign: string }) => props.textAlign || 'left'};
-  font-size: ${(props: { fontSize: number }) => props.fontSize || 14};
+  font-size: ${(props: { fontSize: number }) => props.fontSize || '14px'};
   font-family: ${(props: { fontFamily: string }) =>
     props.fontFamily || 'Mulish'};
   margin-top: ${(props: { marginTop: number }) => props.marginTop || 0};

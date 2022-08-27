@@ -114,7 +114,7 @@ export default function App() {
         <Style.Title>Gorjetas</Style.Title>
         <Style.ContainerMain>
           {/* Valor do pedido */}
-          <Style.Label marginBottom={8}>
+          <Style.Label marginBottom="8px">
             Digite o valor total do pedido
             <Text style={{ color: '#DF4A4A', fontFamily: 'Mulish-bold' }}>
               *
@@ -122,7 +122,7 @@ export default function App() {
           </Style.Label>
           <Style.InputRow
             style={{
-              borderWidth: priceInput ? 1 : priceFocus ? 1 : 0,
+              borderWidth: priceInput ? '1px' : priceFocus ? '1px' : '0',
               borderColor: priceInput ? '#DF4A4A' : '#B1B9CC'
             }}
           >
@@ -140,7 +140,7 @@ export default function App() {
               placeholder="Digite o valor aqui "
               placeholderTextColor="#B1B9CC"
               style={{
-                fontSize: 14,
+                fontSize: '14px',
                 fontFamily: 'Mulish',
                 textAlign: 'right',
                 width: '90%'
@@ -156,7 +156,7 @@ export default function App() {
           </Style.InputRow>
 
           {/* Porcentagem de gorjeta */}
-          <Style.Label marginTop={40} marginBottom={8}>
+          <Style.Label marginTop="40px" marginBottom="8px">
             Quanto quer dar de gorjeta?
             <Text style={{ color: '#DF4A4A', fontFamily: 'Mulish-bold' }}>
               *
@@ -172,7 +172,7 @@ export default function App() {
 
           <Style.InputRow
             style={{
-              borderWidth: percentInput ? 1 : percentFocus ? 1 : 0,
+              borderWidth: percentInput ? '1px' : percentFocus ? '1px' : '0',
               borderColor: percentInput ? '#DF4A4A' : '#B1B9CC',
               marginTop: 8
             }}
@@ -189,7 +189,7 @@ export default function App() {
               placeholder="Personalize aqui"
               placeholderTextColor="#B1B9CC"
               style={{
-                fontSize: 14,
+                fontSize: '14px',
                 fontFamily: 'Mulish',
                 textAlign: 'right',
                 width: '90%'
@@ -206,7 +206,7 @@ export default function App() {
           </Style.InputRow>
 
           {/* Quantidade de pessoas para pagar */}
-          <Style.Label marginTop={16} marginBottom={8}>
+          <Style.Label marginTop="16px" marginBottom="8px">
             Quantas pessoas irão pagar?
             <Text style={{ color: '#DF4A4A', fontFamily: 'Mulish-bold' }}>
               *
@@ -214,7 +214,7 @@ export default function App() {
           </Style.Label>
           <Style.InputRow
             style={{
-              borderWidth: peopleToPayInput ? 1 : peopleFocus ? 1 : 0,
+              borderWidth: peopleToPayInput ? '1px' : peopleFocus ? '1px' : '0',
               borderColor: peopleToPayInput ? '#DF4A4A' : '#B1B9CC'
             }}
           >
@@ -229,7 +229,7 @@ export default function App() {
               placeholder="Digit o valor aqui"
               placeholderTextColor="#B1B9CC"
               style={{
-                fontSize: 14,
+                fontSize: '14px',
                 fontFamily: 'Mulish',
                 textAlign: 'right',
                 width: '90%'
@@ -247,7 +247,7 @@ export default function App() {
           <Style.ContainerFinish>
             <Style.FinishButton underlayColor="#0E7182" onPress={handleButton}>
               <Style.Label
-                fontSize={16}
+                fontSize="16px"
                 color="#ffffff"
                 fontFamily="Mulish-bold"
                 textAlign="center"
@@ -260,13 +260,13 @@ export default function App() {
 
         {/* Gorjeta resultados */}
         <Style.ContainerResultados>
-          <Style.Label marginBottom={8} marginTop={24}>
+          <Style.Label marginBottom="8px" marginTop='24px'>
             Valor total da gorjeta
           </Style.Label>
           <Style.InputRow
             bgColor="#01A7C2"
             style={{
-              borderWidth: priceFocus ?? false ? 1 : 0,
+              borderWidth: priceFocus ?? false ? '1px' : '0',
               borderColor: '#B1B9CC'
             }}
           >
@@ -289,13 +289,13 @@ export default function App() {
             />
           </Style.InputRow>
 
-          <Style.Label marginBottom={8} marginTop={24}>
+          <Style.Label marginBottom="8px" marginTop="24px">
             Valor que cada pessoa irá pagar de gorjeta
           </Style.Label>
           <Style.InputRow
             bgColor="#01A7C2"
             style={{
-              borderWidth: priceFocus ?? false ? 1 : 0,
+              borderWidth: priceFocus ?? false ? '1px' : '0',
               borderColor: '#B1B9CC'
             }}
           >
