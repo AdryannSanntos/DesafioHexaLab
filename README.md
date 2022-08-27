@@ -1,8 +1,9 @@
 # DesafioHexaLab
 <div>
-  <img width="200" src="Img.jpeg" />
-  <img width="200" src="img2.jpeg" />
-  <img width="200" src="img3.jpeg" />
+  <h2>Imagens</h2>
+  <a href="Img.jpeg">1. Campos limpos</a> <br>
+  <a href="img2.jpeg">2. Campos preenchidos</a> <br>
+  <a href="img3.jpeg">3. Erro</a>
 </div>
 
 ## Como instalar o aplicativo
