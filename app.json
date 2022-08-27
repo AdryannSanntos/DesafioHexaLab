@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "DesafioHexa",
+    "slug": "DesafioHexa",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "",
+      "resizeMode": "contain",
+      "backgroundColor": "#F2F6FF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "",
+        "backgroundColor": "#F2F6FF"
+      }
+    },
+    "web": {
+      "favicon": ""
+    }
+  }
+}
