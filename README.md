@@ -1,5 +1,9 @@
 # DesafioHexaLab
-<img width="200" src="Img.jpeg" />
+<div>
+  <img width="200" src="Img.jpeg" />
+  <img width="200" src="img2.jpeg" />
+  <img width="200" src="img3.jpeg" />
+</div>
 
 ## Como instalar o aplicativo
 > Resquisitos: <br> 1. Possuir o **expo** instalado na sua máquina <br> 2. Possuir o aplicativo mobile **expo** ou um emulador em sua máquina
