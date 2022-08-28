@@ -86,7 +86,6 @@ export default function App() {
   }
 
   function handleButton() {
-    console.log(price, priceInput)
     if (price !== undefined && price !== 0 && price !== null) {
       setPriceInput(false)
       if (percent !== null && percent! > 0) {
