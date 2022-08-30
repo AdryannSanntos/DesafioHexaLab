@@ -86,6 +86,7 @@ export default function App() {
   }
 
   function handleButton() {
+    console.log(price, priceInput)
     if (price !== undefined && price !== 0 && price !== null) {
       setPriceInput(false)
       if (percent !== null && percent! > 0) {
@@ -122,7 +123,7 @@ export default function App() {
           </Style.Label>
           <Style.InputRow
             style={{
-              borderWidth: priceInput ? '1px' : priceFocus ? '1px' : 0,
+              borderWidth: priceInput ? 1 : priceFocus ? 1 : 0,
               borderColor: priceInput ? '#DF4A4A' : '#B1B9CC'
             }}
           >
@@ -140,7 +141,7 @@ export default function App() {
               placeholder="Digite o valor aqui "
               placeholderTextColor="#B1B9CC"
               style={{
-                fontSize: '14px',
+                fontSize: 14,
                 fontFamily: 'Mulish',
                 textAlign: 'right',
                 width: '90%'
@@ -172,7 +173,7 @@ export default function App() {
 
           <Style.InputRow
             style={{
-              borderWidth: percentInput ? '1px' : percentFocus ? '1px' : 0,
+              borderWidth: percentInput ? 1 : percentFocus ? 1 : 0,
               borderColor: percentInput ? '#DF4A4A' : '#B1B9CC',
               marginTop: 8
             }}
@@ -189,7 +190,7 @@ export default function App() {
               placeholder="Personalize aqui"
               placeholderTextColor="#B1B9CC"
               style={{
-                fontSize: '14px',
+                fontSize: 14,
                 fontFamily: 'Mulish',
                 textAlign: 'right',
                 width: '90%'
@@ -214,7 +215,7 @@ export default function App() {
           </Style.Label>
           <Style.InputRow
             style={{
-              borderWidth: peopleToPayInput ? '1px' : peopleFocus ? '1px' : 0,
+              borderWidth: peopleToPayInput ? 1 : peopleFocus ? 1 : 0,
               borderColor: peopleToPayInput ? '#DF4A4A' : '#B1B9CC'
             }}
           >
@@ -229,7 +230,7 @@ export default function App() {
               placeholder="Digit o valor aqui"
               placeholderTextColor="#B1B9CC"
               style={{
-                fontSize: '14px',
+                fontSize: 14,
                 fontFamily: 'Mulish',
                 textAlign: 'right',
                 width: '90%'
@@ -247,7 +248,7 @@ export default function App() {
           <Style.ContainerFinish>
             <Style.FinishButton underlayColor="#0E7182" onPress={handleButton}>
               <Style.Label
-                fontSize="16px"
+                fontSize={16}
                 color="#ffffff"
                 fontFamily="Mulish-bold"
                 textAlign="center"

@@ -20,7 +20,6 @@ export function ResultInput(props: ResultInputProps) {
       <Style.InputRow
         bgColor="#01A7C2"
         style={{
-          borderWidth: props.isFocus ?? false ? '1px' : 0,
           borderColor: '#B1B9CC'
         }}
       >
